@@ -15,4 +15,4 @@ def graficaPromedio(dataFrame,rangos,columnaInteresRango,columnaApromediar,nombr
 
     plt.pie(valor,labels=cabecera,autopct='%1.1f%%')
     plt.title("Distribution de datos")
-    plt.savefig(f"./assets/img/{nombregrafica}.svg",dpi=300,bbox_inches="tight")
+    plt.savefig(f"./front/src/assets/img/{nombregrafica}.svg",dpi=300,bbox_inches="tight")

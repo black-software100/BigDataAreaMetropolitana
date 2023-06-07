@@ -10,7 +10,7 @@ def graficaBarraHectarias(dataFrame,columnax,columnay,nombregrafica):
     plt.xlabel("Veredas")
     plt.ylabel("Hectarias promedio")
     plt.title("Hectarias promedio por veredas")
-    plt.savefig(f"./assets/img/{nombregrafica}.svg",dpi=300,bbox_inches="tight")
+    plt.savefig(f"./front/src/assets/img/{nombregrafica}.svg",dpi=300,bbox_inches="tight")
 
 
 def graficaBarraArboles(dataFrame,columnax,columnay,nombregrafica):
@@ -23,7 +23,7 @@ def graficaBarraArboles(dataFrame,columnax,columnay,nombregrafica):
     plt.xlabel("Veredas")
     plt.ylabel("Arboles promedio")
     plt.title("Arboles promedio por veredas")
-    plt.savefig(f"./assets/img/{nombregrafica}.svg",dpi=300,bbox_inches="tight")
+    plt.savefig(f"./front/src/assets/img/{nombregrafica}.svg",dpi=300,bbox_inches="tight")
 
 
 # #Crear instancia de la clase FPDF
