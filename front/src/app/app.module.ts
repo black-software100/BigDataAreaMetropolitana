@@ -7,11 +7,22 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { HomePage } from './home/home.page';
 import { AppRoutingModule } from './app-routing.module';
-
+import { SantafeComponent} from './santafe/santafe.component'
+import { MallarinoComponent } from './mallarino/mallarino.component';
+import { CaucasiaComponent } from './caucasia/caucasia.component';
+import { CaramantaComponent } from './caramanta/caramanta.component';
+import { BelmiraComponent } from './belmira/belmira.component';
+import { BelloComponent } from './bello/bello.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomePage
+    HomePage,
+    SantafeComponent,
+    MallarinoComponent,
+    CaramantaComponent,
+    CaucasiaComponent,
+    BelmiraComponent,
+    BelloComponent,
   ],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
