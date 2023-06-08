@@ -1,15 +1,56 @@
 <ion-menu contentId="main-content">
   <ion-header>
     <ion-toolbar>
-      <ion-title>Lista 
-        Ciudades</ion-title>
+      <ion-title>Navegacion</ion-title>
     </ion-toolbar>
   </ion-header>
   <ion-content class="ion-padding">
-    <a href="">
+    <a href="home/inicio" class="link">
       <ion-card>
         <ion-card-content>
-          hola
+          Inicio
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <a href="home/SantaFe" class="link" >
+      <ion-card>
+        <ion-card-content>
+          Santa Fe de Antioquia 
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <a href="home/Caucacia" class="link">
+      <ion-card>
+        <ion-card-content>
+          Caucacia
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <a href="home/Belmira" class="link" >
+      <ion-card>
+        <ion-card-content>
+          Belmira
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <a href="home/Bello" class="link" >
+      <ion-card>
+        <ion-card-content>
+          Bello
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <a href="home/Caramanta" class="link" >
+      <ion-card>
+        <ion-card-content>
+          Caramanta
+        </ion-card-content>
+      </ion-card>
+    </a>
+    <a href="home/Mallarino" class="link" >
+      <ion-card>
+        <ion-card-content>
+          Mallarino
         </ion-card-content>
       </ion-card>
     </a>
@@ -24,49 +65,8 @@
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content>
-    <div class="banner text-white">
-      <div class="p-5 text-white fw-bold text-center">
-          <h1 class="title"> Hotel Testla </h1>
-      </div>
-    </div>
-    <section class="container-fluid my-5" id="home">
-
-      <div class="row"> 
-          <h2 class="my-2 subtitle text-center" >Ciudades</h2> 
-      </div>
-      <div class="row">
-          <a  href="SantaFe" class="col-12 col-md-6"><img src="../../assets/img/SantaFedeAntioquia.jpg" class="img-fluid w-100 h-100 shadow zoom"></a>
-          <a  href="Caucacia" class="col-12 col-md-6"><img src="../../assets/img/Caucasia.jpg" class="img-fluid w-100 h-100 shadow zoom"></a>
-      </div>
-      <div class="row mt-3">
-          <a href="Belmira" class="col-12 col-md-6"><img src="../../assets/img/Belmira.jpg" class="img-fluid w-100 h-100 shadow zoom"></a>
-          <a href="Bello" class="col-12 col-md-6"><img src="../../assets/img/Bello.png" class="img-fluid w-100 h-100 shadow zoom"></a>
-      </div>
-      <div class="row mt-3">
-        <a href="Caramanta" class="col-12 col-md-6"><img src="../../assets/img/Caramanta.jpg" class="img-fluid w-100 h-100 shadow zoom"></a>
-        <a href="Mallarino" class="col-12 col-md-6"><img src="../../assets/img/mallarino.jpg" class="img-fluid w-100 h-100 shadow zoom"></a>
-      </div>
-
-    </section>
-    <footer class="p-5 container-fluid bg-dark text-white fw-bold" id="footer">
-      <div class="row">
-          <div class="col-12 col-md-3 text-end">
-          </div>
-          <div class="col-12 col-md-6 text-end align-self-center">
-              <h3> Ven a visitarnos, lo disfrutarás desde el primer día.</h3>
-              <a href="">
-                  <ion-icon name="logo-instagram" class="fs-1 text-white me-2"></ion-icon>
-              </a>
-              <a href="">
-                <ion-icon name="logo-whatsapp" class="fs-1 text-white me-2"></ion-icon>
-              </a>
-              <a href="">
-                  <ion-icon name="logo-facebook" class="fs-1 text-white me-2"></ion-icon>
-              </a>
-          </div>
-      </div>
-  </footer>
+  <ion-content class="ion-padding"> 
+    <router-outlet></router-outlet> 
   </ion-content>
 </div>
 

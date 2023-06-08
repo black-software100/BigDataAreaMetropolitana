@@ -13,9 +13,12 @@ import { CaucasiaComponent } from './caucasia/caucasia.component';
 import { CaramantaComponent } from './caramanta/caramanta.component';
 import { BelmiraComponent } from './belmira/belmira.component';
 import { BelloComponent } from './bello/bello.component';
+import { IndexComponent } from './index/index.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
+    IndexComponent,
     HomePage,
     SantafeComponent,
     MallarinoComponent,
@@ -23,6 +26,7 @@ import { BelloComponent } from './bello/bello.component';
     CaucasiaComponent,
     BelmiraComponent,
     BelloComponent,
+    FooterComponent
   ],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
